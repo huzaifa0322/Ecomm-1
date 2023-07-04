@@ -1,0 +1,141 @@
+  
+.HoverBigger:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+.HoverBigger{
+  cursor: pointer;
+}
+.nav{
+    height: 70px;
+    width: 100%;;
+}
+.Search{
+    
+  display: flex;
+  justify-content: center;
+}
+.searchBar{
+    height: 25px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+  
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px
+}
+.searchButton{
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    height: 270px;
+    width: 200px;
+    margin: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+     flex-wrap: wrap;
+     border: solid 1px;
+     border-radius: 5px;
+   
+  }
+
+.img{
+    height: 150px;
+    width: 100%;
+}
+.chips{
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.chip {
+    height: 25px;
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    background-color: #3ac258;
+    border: none;
+    color: white;
+  }
+
+  .chip.active {
+    background-color: #3ac258;
+    color: black;
+  }
+
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  } 
+
+  .dropdown .dropbtn {
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 500px;
+    border: none; 
+    color: #55555521;
+    background-color: inherit;
+    margin: 0;
+    padding: 10px 10px;
+  }
+
+  .navbar, .dropdown .dropbtn {
+    background-color: #ddd;
+    color: #050505;
+    border-radius: 6px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: #141414;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #7c7c7c;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
